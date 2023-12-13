@@ -21,3 +21,7 @@ WebUI.click(findTestObject('Home_Page/Button_User'))
 
 WebUI.takeScreenshot()
 
+WebUI.verifyElementClickable(findTestObject('Home_Page/Button_MasukDaftar'))
+
+WebUI.verifyElementVisible(findTestObject('Home_Page/Button_MasukDaftar'))
+
