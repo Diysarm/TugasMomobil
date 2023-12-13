@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Logout,Firefox 120.0,,,2023-12-13 15:43:36,2023-12-13 15:43:49,13.826s,FAILED
+,,,,,,,
+Test Cases/Login_Logout_Registrasi/Login_Page,Firefox 120.0,,,2023-12-13 15:43:36,2023-12-13 15:43:49,13.205s,FAILED
+"openBrowser(""https://uat.momobil.id/"")",Firefox 120.0,,,2023-12-13 15:43:36,2023-12-13 15:43:42,5.327s,PASSED
+maximizeWindow(),Firefox 120.0,,,2023-12-13 15:43:42,2023-12-13 15:43:42,0.090s,PASSED
+"click(findTestObject(""Home_Page/Button_MasukDaftar""))",Firefox 120.0,,,2023-12-13 15:43:42,2023-12-13 15:43:49,7.394s,FAILED
+,,,,,,,
+Test Cases/Login_Logout_Registrasi/Logout_Page,Firefox 120.0,,,2023-12-13 15:43:49,2023-12-13 15:43:49,0.316s,FAILED
+"click(findTestObject(""Home_Page/Button_User""))",Firefox 120.0,,,2023-12-13 15:43:49,2023-12-13 15:43:49,0.075s,FAILED

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Logout" time="40.512" tests="2" failures="0" errors="0">
+   <testsuite name="Login_Logout" tests="2" failures="0" errors="0" time="40.512" skipped="0" timestamp="2023-12-13 15:55:44" hostname="muhra - MRasyid" id="Test Suites/Login_Logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231213_155541\\Login_Logout\\20231213_155541"/>
+         <property name="logFiles" value="C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231213_155541\\Login_Logout\\20231213_155541\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231213_155541\\Login_Logout\\20231213_155541\\1702457769908.png, C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231213_155541\\Login_Logout\\20231213_155541\\1702457771684.png, C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231213_155541\\Login_Logout\\20231213_155541\\1702457774240.png, C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231213_155541\\Login_Logout\\20231213_155541\\1702457780016.png"/>
+         <property name="hostName" value="muhra - MRasyid"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Firefox 120.0"/>
+         <property name="hostAddress" value="10.134.194.105"/>
+         <property name="sessionId" value="74a4c1fd-1db8-4a5a-83d7-66a35059f44d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_Logout_Registrasi/Login_Page" time="32.209" classname="Test Cases/Login_Logout_Registrasi/Login_Page" status="PASSED">
+         <system-out><![CDATA[2023-12-13 15:55:44 - [TEST_CASE][PASSED] - Test Cases/Login_Logout_Registrasi/Login_Page: Test Cases/Login_Logout_Registrasi/Login_Page
+
+2023-12-13 15:55:45 - [TEST_STEP][PASSED] - openBrowser("https://uat.momobil.id/"): Browser is opened with url: 'https://uat.momobil.id/'
+
+2023-12-13 15:55:45 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-12-13 15:55:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-13 15:56:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.momobil.id/'
+
+2023-12-13 15:56:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-12-13 15:56:06 - [MESSAGE][PASSED] - Current window maximized
+
+2023-12-13 15:56:06 - [TEST_STEP][PASSED] - click(findTestObject("Home_Page/Button_MasukDaftar")): Object: 'Object Repository/Home_Page/Button_MasukDaftar' is clicked on
+
+2023-12-13 15:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page/Button_MasukDaftar' is clicked on
+
+2023-12-13 15:56:07 - [TEST_STEP][PASSED] - verifyTextPresent("masuk ke akun anda", false): Text 'masuk ke akun anda' is present on page 
+
+2023-12-13 15:56:07 - [MESSAGE][PASSED] - Text 'masuk ke akun anda' is present on page 
+
+2023-12-13 15:56:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/textarea_EmailOrPhone"), User): Text 'bonysinurat21@gmail.com
+' is set on object 'Object Repository/Login_Page/textarea_EmailOrPhone'
+
+2023-12-13 15:56:09 - [MESSAGE][PASSED] - Text 'bonysinurat21@gmail.com
+' is set on object 'Object Repository/Login_Page/textarea_EmailOrPhone'
+
+2023-12-13 15:56:09 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Login_Page/button_Masuk")): Object 'Object Repository/Login_Page/button_Masuk' is NOT clickable
+
+2023-12-13 15:56:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/button_Masuk' is NOT clickable
+
+2023-12-13 15:56:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-12-13 15:56:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231213_155541\\Login_Logout\\20231213_155541\\1702457769908.png]]
+
+2023-12-13 15:56:10 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/textarea_Password"), Pass): Text '123456Adira' is set on object 'Object Repository/Login_Page/textarea_Password'
+
+2023-12-13 15:56:10 - [MESSAGE][PASSED] - Text '123456Adira' is set on object 'Object Repository/Login_Page/textarea_Password'
+
+2023-12-13 15:56:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Login_Page/button_Masuk")): Object 'Object Repository/Login_Page/button_Masuk' is clickable
+
+2023-12-13 15:56:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/button_Masuk' is clickable
+
+2023-12-13 15:56:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-12-13 15:56:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231213_155541\\Login_Logout\\20231213_155541\\1702457771684.png]]
+
+2023-12-13 15:56:11 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/button_Masuk")): Object: 'Object Repository/Login_Page/button_Masuk' is clicked on
+
+2023-12-13 15:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Masuk' is clicked on
+
+2023-12-13 15:56:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-12-13 15:56:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231213_155541\\Login_Logout\\20231213_155541\\1702457774240.png]]
+
+2023-12-13 15:56:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Home_Page/Button_User")): Object 'Object Repository/Home_Page/Button_User' is visible
+
+2023-12-13 15:56:17 - [MESSAGE][PASSED] - Object 'Object Repository/Home_Page/Button_User' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Logout_Registrasi/Logout_Page" time="7.948" classname="Test Cases/Login_Logout_Registrasi/Logout_Page" status="PASSED">
+         <system-out><![CDATA[2023-12-13 15:56:17 - [TEST_CASE][PASSED] - Test Cases/Login_Logout_Registrasi/Logout_Page: Test Cases/Login_Logout_Registrasi/Logout_Page
+
+2023-12-13 15:56:17 - [TEST_STEP][PASSED] - click(findTestObject("Home_Page/Button_User")): Object: 'Object Repository/Home_Page/Button_User' is clicked on
+
+2023-12-13 15:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page/Button_User' is clicked on
+
+2023-12-13 15:56:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-12-13 15:56:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231213_155541\\Login_Logout\\20231213_155541\\1702457780016.png]]
+
+2023-12-13 15:56:20 - [TEST_STEP][PASSED] - click(findTestObject("Home_Page/Button_Logout")): Object: 'Object Repository/Home_Page/Button_Logout' is clicked on
+
+2023-12-13 15:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page/Button_Logout' is clicked on
+
+2023-12-13 15:56:20 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Home_Page/Button_MasukDaftar")): Object 'Object Repository/Home_Page/Button_MasukDaftar' is clickable
+
+2023-12-13 15:56:23 - [MESSAGE][PASSED] - Object 'Object Repository/Home_Page/Button_MasukDaftar' is clickable
+
+2023-12-13 15:56:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Home_Page/Button_MasukDaftar")): Object 'Object Repository/Home_Page/Button_MasukDaftar' is visible
+
+2023-12-13 15:56:25 - [MESSAGE][PASSED] - Object 'Object Repository/Home_Page/Button_MasukDaftar' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-12-13 15:55:44 - [TEST_SUITE][PASSED] - Login_Logout: Test Cases/Login_Logout_Registrasi/Logout_Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
