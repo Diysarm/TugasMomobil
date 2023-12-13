@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Logout,Firefox 120.0,,,2023-12-13 15:54:34,2023-12-13 15:55:07,33.619s,FAILED
+,,,,,,,
+Test Cases/Login_Logout_Registrasi/Login_Page,Firefox 120.0,,,2023-12-13 15:54:34,2023-12-13 15:55:04,30.187s,PASSED
+"openBrowser(""https://uat.momobil.id/"")",Firefox 120.0,,,2023-12-13 15:54:34,2023-12-13 15:54:55,21.152s,PASSED
+maximizeWindow(),Firefox 120.0,,,2023-12-13 15:54:55,2023-12-13 15:54:56,0.314s,PASSED
+"click(findTestObject(""Home_Page/Button_MasukDaftar""))",Firefox 120.0,,,2023-12-13 15:54:56,2023-12-13 15:54:56,0.718s,PASSED
+"verifyTextPresent(""masuk ke akun anda"", false)",Firefox 120.0,,,2023-12-13 15:54:56,2023-12-13 15:54:57,0.477s,PASSED
+"setText(findTestObject(""Login_Page/textarea_EmailOrPhone""), User)",Firefox 120.0,,,2023-12-13 15:54:57,2023-12-13 15:54:58,0.865s,PASSED
+"verifyElementNotClickable(findTestObject(""Login_Page/button_Masuk""))",Firefox 120.0,,,2023-12-13 15:54:58,2023-12-13 15:54:58,0.335s,PASSED
+takeScreenshot(),Firefox 120.0,,,2023-12-13 15:54:58,2023-12-13 15:54:59,0.458s,PASSED
+"setText(findTestObject(""Login_Page/textarea_Password""), Pass)",Firefox 120.0,,,2023-12-13 15:54:59,2023-12-13 15:54:59,0.642s,PASSED
+"verifyElementClickable(findTestObject(""Login_Page/button_Masuk""))",Firefox 120.0,,,2023-12-13 15:54:59,2023-12-13 15:55:00,0.485s,PASSED
+takeScreenshot(),Firefox 120.0,,,2023-12-13 15:55:00,2023-12-13 15:55:00,0.340s,PASSED
+"click(findTestObject(""Login_Page/button_Masuk""))",Firefox 120.0,,,2023-12-13 15:55:00,2023-12-13 15:55:01,0.610s,PASSED
+takeScreenshot(),Firefox 120.0,,,2023-12-13 15:55:01,2023-12-13 15:55:02,0.924s,PASSED
+"verifyElementVisible(findTestObject(""Home_Page/Button_User""))",Firefox 120.0,,,2023-12-13 15:55:02,2023-12-13 15:55:04,2.455s,PASSED
+,,,,,,,
+Test Cases/Login_Logout_Registrasi/Logout_Page,Firefox 120.0,,,2023-12-13 15:55:04,2023-12-13 15:55:07,3.131s,FAILED
+"click(findTestObject(""Home_Page/Button_User""))",Firefox 120.0,,,2023-12-13 15:55:05,2023-12-13 15:55:06,1.758s,PASSED
+takeScreenshot(),Firefox 120.0,,,2023-12-13 15:55:06,2023-12-13 15:55:07,0.590s,PASSED
+click(findTestObject(null)),Firefox 120.0,,,2023-12-13 15:55:07,2023-12-13 15:55:07,0.275s,FAILED

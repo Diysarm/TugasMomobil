@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Logout,Firefox 120.0,,,2023-12-13 15:55:44,2023-12-13 15:56:25,40.512s,PASSED
+,,,,,,,
+Test Cases/Login_Logout_Registrasi/Login_Page,Firefox 120.0,,,2023-12-13 15:55:44,2023-12-13 15:56:17,32.209s,PASSED
+"openBrowser(""https://uat.momobil.id/"")",Firefox 120.0,,,2023-12-13 15:55:45,2023-12-13 15:56:06,20.906s,PASSED
+maximizeWindow(),Firefox 120.0,,,2023-12-13 15:56:06,2023-12-13 15:56:06,0.339s,PASSED
+"click(findTestObject(""Home_Page/Button_MasukDaftar""))",Firefox 120.0,,,2023-12-13 15:56:06,2023-12-13 15:56:07,0.850s,PASSED
+"verifyTextPresent(""masuk ke akun anda"", false)",Firefox 120.0,,,2023-12-13 15:56:07,2023-12-13 15:56:07,0.626s,PASSED
+"setText(findTestObject(""Login_Page/textarea_EmailOrPhone""), User)",Firefox 120.0,,,2023-12-13 15:56:07,2023-12-13 15:56:09,1.195s,PASSED
+"verifyElementNotClickable(findTestObject(""Login_Page/button_Masuk""))",Firefox 120.0,,,2023-12-13 15:56:09,2023-12-13 15:56:09,0.416s,PASSED
+takeScreenshot(),Firefox 120.0,,,2023-12-13 15:56:09,2023-12-13 15:56:10,0.547s,PASSED
+"setText(findTestObject(""Login_Page/textarea_Password""), Pass)",Firefox 120.0,,,2023-12-13 15:56:10,2023-12-13 15:56:10,0.739s,PASSED
+"verifyElementClickable(findTestObject(""Login_Page/button_Masuk""))",Firefox 120.0,,,2023-12-13 15:56:10,2023-12-13 15:56:11,0.548s,PASSED
+takeScreenshot(),Firefox 120.0,,,2023-12-13 15:56:11,2023-12-13 15:56:11,0.448s,PASSED
+"click(findTestObject(""Login_Page/button_Masuk""))",Firefox 120.0,,,2023-12-13 15:56:11,2023-12-13 15:56:12,0.665s,PASSED
+takeScreenshot(),Firefox 120.0,,,2023-12-13 15:56:12,2023-12-13 15:56:14,1.860s,PASSED
+"verifyElementVisible(findTestObject(""Home_Page/Button_User""))",Firefox 120.0,,,2023-12-13 15:56:14,2023-12-13 15:56:17,2.691s,PASSED
+,,,,,,,
+Test Cases/Login_Logout_Registrasi/Logout_Page,Firefox 120.0,,,2023-12-13 15:56:17,2023-12-13 15:56:25,7.948s,PASSED
+"click(findTestObject(""Home_Page/Button_User""))",Firefox 120.0,,,2023-12-13 15:56:17,2023-12-13 15:56:19,1.750s,PASSED
+takeScreenshot(),Firefox 120.0,,,2023-12-13 15:56:19,2023-12-13 15:56:20,0.710s,PASSED
+"click(findTestObject(""Home_Page/Button_Logout""))",Firefox 120.0,,,2023-12-13 15:56:20,2023-12-13 15:56:20,0.450s,PASSED
+"verifyElementClickable(findTestObject(""Home_Page/Button_MasukDaftar""))",Firefox 120.0,,,2023-12-13 15:56:20,2023-12-13 15:56:23,3.102s,PASSED
+"verifyElementVisible(findTestObject(""Home_Page/Button_MasukDaftar""))",Firefox 120.0,,,2023-12-13 15:56:23,2023-12-13 15:56:25,1.128s,PASSED

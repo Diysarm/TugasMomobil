@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Logout,,,,2023-12-13 15:43:12,2023-12-13 15:43:16,4.146s,FAILED
+,,,,,,,
+Test Cases/Login_Logout_Registrasi/Login_Page,,,,2023-12-13 15:43:13,2023-12-13 15:43:16,3.082s,FAILED
+"openBrowser(""https://uat.momobil.id/"")",,,,2023-12-13 15:43:13,2023-12-13 15:43:16,2.655s,FAILED
+,,,,,,,
+Test Cases/Login_Logout_Registrasi/Logout_Page,,,,2023-12-13 15:43:16,2023-12-13 15:43:16,0.692s,FAILED
+"click(findTestObject(""Home_Page/Button_User""))",,,,2023-12-13 15:43:16,2023-12-13 15:43:16,0.175s,FAILED
