@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Negative_Login,Firefox 120.0,,,2023-12-15 09:52:17,2023-12-15 09:52:46,29.107s,PASSED
+,,,,,,,
+Test Cases/Login_Logout_Registrasi/Login,Firefox 120.0,,,2023-12-15 09:52:17,2023-12-15 09:52:46,28.740s,PASSED
+"openBrowser(""https://uat.momobil.id/"")",Firefox 120.0,,,2023-12-15 09:52:17,2023-12-15 09:52:36,19.127s,PASSED
+maximizeWindow(),Firefox 120.0,,,2023-12-15 09:52:36,2023-12-15 09:52:37,0.062s,PASSED
+"click(findTestObject(""Home_Page/Button_MasukDaftar""))",Firefox 120.0,,,2023-12-15 09:52:37,2023-12-15 09:52:37,0.816s,PASSED
+"verifyTextPresent(""masuk ke akun anda"", false)",Firefox 120.0,,,2023-12-15 09:52:37,2023-12-15 09:52:38,0.527s,PASSED
+"setText(findTestObject(""Login_Page/textarea_EmailOrPhone""), User)",Firefox 120.0,,,2023-12-15 09:52:38,2023-12-15 09:52:39,0.936s,PASSED
+"verifyElementNotClickable(findTestObject(""Login_Page/button_Masuk""))",Firefox 120.0,,,2023-12-15 09:52:39,2023-12-15 09:52:39,0.395s,PASSED
+takeScreenshot(),Firefox 120.0,,,2023-12-15 09:52:39,2023-12-15 09:52:40,0.455s,PASSED
+"setText(findTestObject(""Login_Page/textarea_Password""), Pass)",Firefox 120.0,,,2023-12-15 09:52:40,2023-12-15 09:52:40,0.681s,PASSED
+"verifyElementClickable(findTestObject(""Login_Page/button_Masuk""))",Firefox 120.0,,,2023-12-15 09:52:40,2023-12-15 09:52:41,0.504s,PASSED
+takeScreenshot(),Firefox 120.0,,,2023-12-15 09:52:41,2023-12-15 09:52:41,0.384s,PASSED
+"click(findTestObject(""Login_Page/button_Masuk""))",Firefox 120.0,,,2023-12-15 09:52:41,2023-12-15 09:52:42,0.680s,PASSED
+takeScreenshot(),Firefox 120.0,,,2023-12-15 09:52:42,2023-12-15 09:52:43,1.073s,PASSED
+"verifyElementVisible(findTestObject(""Home_Page/Button_User""))",Firefox 120.0,,,2023-12-15 09:52:43,2023-12-15 09:52:46,2.675s,PASSED

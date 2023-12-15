@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Negative_Login" time="29.107" tests="1" failures="0" errors="0">
+   <testsuite name="Negative_Login" tests="1" failures="0" errors="0" time="29.107" skipped="0" timestamp="2023-12-15 09:52:17" hostname="muhra - MRasyid" id="Test Suites/Negative_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231215_095206\\Negative_Login\\20231215_095207"/>
+         <property name="logFiles" value="C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231215_095206\\Negative_Login\\20231215_095207\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231215_095206\\Negative_Login\\20231215_095207\\1702608760035.png, C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231215_095206\\Negative_Login\\20231215_095207\\1702608761631.png, C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231215_095206\\Negative_Login\\20231215_095207\\1702608763362.png"/>
+         <property name="hostName" value="muhra - MRasyid"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Firefox 120.0"/>
+         <property name="hostAddress" value="10.134.194.105"/>
+         <property name="sessionId" value="9e193c56-8c4c-44ca-a617-c946fb2e35e8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_Logout_Registrasi/Login" time="28.74" classname="Test Cases/Login_Logout_Registrasi/Login" status="PASSED">
+         <system-out><![CDATA[2023-12-15 09:52:17 - [TEST_CASE][PASSED] - Test Cases/Login_Logout_Registrasi/Login: Test Cases/Login_Logout_Registrasi/Login
+
+2023-12-15 09:52:17 - [TEST_STEP][PASSED] - openBrowser("https://uat.momobil.id/"): Browser is opened with url: 'https://uat.momobil.id/'
+
+2023-12-15 09:52:18 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-12-15 09:52:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-15 09:52:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.momobil.id/'
+
+2023-12-15 09:52:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-12-15 09:52:37 - [MESSAGE][PASSED] - Current window maximized
+
+2023-12-15 09:52:37 - [TEST_STEP][PASSED] - click(findTestObject("Home_Page/Button_MasukDaftar")): Object: 'Object Repository/Home_Page/Button_MasukDaftar' is clicked on
+
+2023-12-15 09:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page/Button_MasukDaftar' is clicked on
+
+2023-12-15 09:52:37 - [TEST_STEP][PASSED] - verifyTextPresent("masuk ke akun anda", false): Text 'masuk ke akun anda' is present on page 
+
+2023-12-15 09:52:38 - [MESSAGE][PASSED] - Text 'masuk ke akun anda' is present on page 
+
+2023-12-15 09:52:38 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/textarea_EmailOrPhone"), User): Text 'bonysinurat21@gmail.com
+' is set on object 'Object Repository/Login_Page/textarea_EmailOrPhone'
+
+2023-12-15 09:52:39 - [MESSAGE][PASSED] - Text 'bonysinurat21@gmail.com
+' is set on object 'Object Repository/Login_Page/textarea_EmailOrPhone'
+
+2023-12-15 09:52:39 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Login_Page/button_Masuk")): Object 'Object Repository/Login_Page/button_Masuk' is NOT clickable
+
+2023-12-15 09:52:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/button_Masuk' is NOT clickable
+
+2023-12-15 09:52:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-12-15 09:52:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231215_095206\\Negative_Login\\20231215_095207\\1702608760035.png]]
+
+2023-12-15 09:52:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/textarea_Password"), Pass): Text '123456Adira' is set on object 'Object Repository/Login_Page/textarea_Password'
+
+2023-12-15 09:52:40 - [MESSAGE][PASSED] - Text '123456Adira' is set on object 'Object Repository/Login_Page/textarea_Password'
+
+2023-12-15 09:52:40 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Login_Page/button_Masuk")): Object 'Object Repository/Login_Page/button_Masuk' is clickable
+
+2023-12-15 09:52:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/button_Masuk' is clickable
+
+2023-12-15 09:52:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-12-15 09:52:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231215_095206\\Negative_Login\\20231215_095207\\1702608761631.png]]
+
+2023-12-15 09:52:41 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/button_Masuk")): Object: 'Object Repository/Login_Page/button_Masuk' is clicked on
+
+2023-12-15 09:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Masuk' is clicked on
+
+2023-12-15 09:52:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-12-15 09:52:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\muhra\\git\\TugasMomobil\\Reports\\20231215_095206\\Negative_Login\\20231215_095207\\1702608763362.png]]
+
+2023-12-15 09:52:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Home_Page/Button_User")): Object 'Object Repository/Home_Page/Button_User' is visible
+
+2023-12-15 09:52:46 - [MESSAGE][PASSED] - Object 'Object Repository/Home_Page/Button_User' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-12-15 09:52:17 - [TEST_SUITE][PASSED] - Negative_Login: Test Cases/Login_Logout_Registrasi/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
