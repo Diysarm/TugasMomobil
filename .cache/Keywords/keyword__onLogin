@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "94FD40FD96BBF517E284F8A6ECE278EB",
+  "keywordClasses": [
+    {
+      "name": "keyword.OnLogin",
+      "keywordMethods": [
+        {
+          "name": "verifyNoHP",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

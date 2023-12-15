@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Logout_Page</name>
+   <name>Negative_Login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e9e14411-de27-4d00-a23a-7f7f65e677fa</testCaseGuid>
+   <testCaseGuid>33e401c8-eeef-4e4d-80b7-8e8d0b0ac508</testCaseGuid>
 </TestCaseEntity>

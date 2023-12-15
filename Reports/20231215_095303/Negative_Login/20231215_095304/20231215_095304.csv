@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Negative_Login,Firefox 120.0,,,2023-12-15 09:53:07,2023-12-15 09:53:46,39.135s,PASSED
+,,,,,,,
+Test Cases/Login_Logout_Registrasi/Negative_Login,Firefox 120.0,,,2023-12-15 09:53:07,2023-12-15 09:53:46,38.817s,PASSED
+"openBrowser(""https://uat.momobil.id/"")",Firefox 120.0,,,2023-12-15 09:53:08,2023-12-15 09:53:24,16.488s,PASSED
+maximizeWindow(),Firefox 120.0,,,2023-12-15 09:53:24,2023-12-15 09:53:24,0.053s,PASSED
+takeScreenshot(),Firefox 120.0,,,2023-12-15 09:53:24,2023-12-15 09:53:25,0.681s,PASSED
+"click(findTestObject(""Home_Page/Button_MasukDaftar""))",Firefox 120.0,,,2023-12-15 09:53:25,2023-12-15 09:53:26,0.724s,PASSED
+"verifyTextPresent(""masuk ke akun anda"", false)",Firefox 120.0,,,2023-12-15 09:53:26,2023-12-15 09:53:26,0.522s,PASSED
+takeScreenshot(),Firefox 120.0,,,2023-12-15 09:53:26,2023-12-15 09:53:27,0.402s,PASSED
+"verifyElementNotClickable(findTestObject(""Login_Page/button_Masuk""))",Firefox 120.0,,,2023-12-15 09:53:27,2023-12-15 09:53:27,0.367s,PASSED
+"setText(findTestObject(""Login_Page/textarea_EmailOrPhone""), User)",Firefox 120.0,,,2023-12-15 09:53:27,2023-12-15 09:53:28,0.989s,PASSED
+"verifyElementNotClickable(findTestObject(""Login_Page/button_Masuk""))",Firefox 120.0,,,2023-12-15 09:53:28,2023-12-15 09:53:28,0.357s,PASSED
+takeScreenshot(),Firefox 120.0,,,2023-12-15 09:53:28,2023-12-15 09:53:29,0.385s,PASSED
+"clearText(findTestObject(""Login_Page/textarea_EmailOrPhone""))",Firefox 120.0,,,2023-12-15 09:53:29,2023-12-15 09:53:29,0.367s,PASSED
+"setText(findTestObject(""Login_Page/textarea_Password""), Pass)",Firefox 120.0,,,2023-12-15 09:53:29,2023-12-15 09:53:30,0.808s,PASSED
+"verifyElementNotClickable(findTestObject(""Login_Page/button_Masuk""))",Firefox 120.0,,,2023-12-15 09:53:30,2023-12-15 09:53:30,0.349s,PASSED
+takeScreenshot(),Firefox 120.0,,,2023-12-15 09:53:30,2023-12-15 09:53:31,0.410s,PASSED
+"setText(findTestObject(""Login_Page/textarea_EmailOrPhone""), ""heyo@mailinator"")",Firefox 120.0,,,2023-12-15 09:53:31,2023-12-15 09:53:31,0.717s,PASSED
+"click(findTestObject(""Login_Page/button_Masuk""))",Firefox 120.0,,,2023-12-15 09:53:31,2023-12-15 09:53:33,1.114s,PASSED
+"verifyElementText(findTestObject(""Login_Page/label_ErrorMessage""), ""Invalid Username/Password."")",Firefox 120.0,,,2023-12-15 09:53:33,2023-12-15 09:53:46,13.665s,PASSED

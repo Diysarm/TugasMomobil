@@ -25,27 +25,57 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Home_Page/Button_MasukDaftar'))
 
-WebUI.verifyTextPresent('masuk ke akun anda', true)
+WebUI.verifyTextPresent('masuk ke akun anda', false)
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Login_Page/button_DaftarDisini'))
+WebUI.verifyElementNotClickable(findTestObject('Login_Page/button_Masuk'))
 
-WebUI.verifyTextPresent('daftar sekarang', true)
+WebUI.setText(findTestObject('Login_Page/textarea_EmailOrPhone'), GlobalVariable.User)
 
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('Login_Page/textarea_EmailOrPhone'), noHP)
+WebUI.verifyElementNotClickable(findTestObject('Login_Page/button_Masuk'))
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Login_Page/textarea_Password'), password)
+WebUI.clearText(findTestObject('Login_Page/textarea_EmailOrPhone'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Registrasi_Page/checkbox_Syaratdanketentuan'))
+WebUI.setText(findTestObject('Login_Page/textarea_Password'), GlobalVariable.Pass)
 
-WebUI.verifyElementChecked(findTestObject('Registrasi_Page/checkbox_Syaratdanketentuan'), 0)
+WebUI.takeScreenshot()
+
+WebUI.verifyElementNotClickable(findTestObject('Login_Page/button_Masuk'))
+
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Login_Page/textarea_EmailOrPhone'), 'heyo@mailinator.com')
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Login_Page/button_Masuk'))
+
+WebUI.verifyElementText(findTestObject('Login_Page/label_ErrorMessage'), 'Invalid Username/Password.')
+
+WebUI.takeScreenshot()
+
+WebUI.clearText(findTestObject('Login_Page/textarea_EmailOrPhone'))
+
+WebUI.refresh()
+
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Login_Page/textarea_EmailOrPhone'), GlobalVariable.User)
+
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Login_Page/textarea_Password'), '1234567890')
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Login_Page/button_Masuk'))
+
+WebUI.verifyElementText(findTestObject('Login_Page/label_ErrorMessage'), 'Invalid Username/Password.')
 
 WebUI.takeScreenshot()
 
