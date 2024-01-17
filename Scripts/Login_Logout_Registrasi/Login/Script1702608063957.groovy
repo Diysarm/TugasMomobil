@@ -23,6 +23,8 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Home_Page/Button_MasukDaftar'))
 
+WebUI.delay(3)
+
 WebUI.verifyTextPresent('masuk ke akun anda', false)
 
 WebUI.setText(findTestObject('Login_Page/textarea_EmailOrPhone'), GlobalVariable.User)
