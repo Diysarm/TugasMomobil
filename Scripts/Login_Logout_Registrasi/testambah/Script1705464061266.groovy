@@ -17,31 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://uat.momobil.id/')
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Home_Page/Button_MasukDaftar'))
-
-WebUI.delay(3)
-
-WebUI.verifyTextPresent('masuk ke akun anda', false)
-
-WebUI.setText(findTestObject('Login_Page/textarea_EmailOrPhone'), GlobalVariable.User)
-
-WebUI.verifyElementNotClickable(findTestObject('Login_Page/button_Masuk'))
-
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('Login_Page/textarea_Password'), GlobalVariable.Pass)
-
-WebUI.verifyElementClickable(findTestObject('Login_Page/button_Masuk'))
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('Login_Page/button_Masuk'))
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementVisible(findTestObject('Home_Page/Button_User'))
-
