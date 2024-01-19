@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Daftar</name>
+   <name>checkbox_Toyota</name>
    <tag></tag>
-   <elementGuidId>3d7a0514-5a50-4fc9-8999-dd645c9119b7</elementGuidId>
+   <elementGuidId>14f4682e-d88d-43b8-91fc-a62630ddac91</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='daftar_btn']</value>
+         <value>//div[@id='scroll-merk']/label[contains(text(),'Toyota')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

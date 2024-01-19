@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Daftar</name>
+   <name>label_AbadiMegahMotor</name>
    <tag></tag>
-   <elementGuidId>3d7a0514-5a50-4fc9-8999-dd645c9119b7</elementGuidId>
+   <elementGuidId>805cb2ec-8f21-4041-9e0d-355497cae8ff</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='daftar_btn']</value>
+         <value>//*[@id='label_text_ABADI MEGAH MOTORScreen_Page']</value>
       </entry>
       <entry>
          <key>BASIC</key>

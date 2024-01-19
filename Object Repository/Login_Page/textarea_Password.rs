@@ -3,14 +3,14 @@
    <description></description>
    <name>textarea_Password</name>
    <tag></tag>
-   <elementGuidId>7fb1fb2b-fb44-4df0-b267-09bfe2950ab8</elementGuidId>
+   <elementGuidId>476f5d82-9dc0-40a1-bf85-4819a91cb08f</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='password_id']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

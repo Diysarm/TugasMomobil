@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Daftar</name>
+   <name>button_ToyotaAgyaG</name>
    <tag></tag>
-   <elementGuidId>3d7a0514-5a50-4fc9-8999-dd645c9119b7</elementGuidId>
+   <elementGuidId>bdce293d-3ebb-4770-a0c4-6e8dd23eccd9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='daftar_btn']</value>
+         <value>//span[contains(text(),'TOYOTA AGYA G 1.0 A/T')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

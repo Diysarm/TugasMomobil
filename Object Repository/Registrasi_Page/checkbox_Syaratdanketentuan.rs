@@ -3,14 +3,14 @@
    <description></description>
    <name>checkbox_Syaratdanketentuan</name>
    <tag></tag>
-   <elementGuidId>ba21db59-5f59-4cab-a65d-b671289725d1</elementGuidId>
+   <elementGuidId>27db76ac-f4cd-474d-bcab-a4d8a9f9c289</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@class='btn btn-check']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

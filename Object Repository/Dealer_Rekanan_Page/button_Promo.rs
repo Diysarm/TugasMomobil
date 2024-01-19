@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Daftar</name>
+   <name>button_Promo</name>
    <tag></tag>
-   <elementGuidId>3d7a0514-5a50-4fc9-8999-dd645c9119b7</elementGuidId>
+   <elementGuidId>b0edf0ad-459d-4bea-803f-29a6c98b6b0a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='daftar_btn']</value>
+         <value>//a[contains(text(),'Promo')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

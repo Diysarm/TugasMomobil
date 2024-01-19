@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Daftar</name>
+   <name>label_DealerRekanan</name>
    <tag></tag>
-   <elementGuidId>3d7a0514-5a50-4fc9-8999-dd645c9119b7</elementGuidId>
+   <elementGuidId>d1ca644c-5117-4ff1-a301-4acf281987bf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='daftar_btn']</value>
+         <value>//*[@id=&quot;bodyStyleDealer&quot;]/div[1]/div[1]/h3</value>
       </entry>
       <entry>
          <key>BASIC</key>

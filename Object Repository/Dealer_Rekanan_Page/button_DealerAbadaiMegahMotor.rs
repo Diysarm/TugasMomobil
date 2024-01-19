@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_ErrorMessage</name>
+   <name>button_DealerAbadaiMegahMotor</name>
    <tag></tag>
-   <elementGuidId>ac731a3c-200f-4e3f-ab50-d0cd8252529d</elementGuidId>
+   <elementGuidId>0d89aa52-452a-4c00-a6c5-7a4a60671a76</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html/body/div[4]/div[2]/div[2]/div[5]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//p[@id='label_alert_Invalid Username/Password.']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

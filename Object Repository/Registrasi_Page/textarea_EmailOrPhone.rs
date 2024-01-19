@@ -3,14 +3,14 @@
    <description></description>
    <name>textarea_EmailOrPhone</name>
    <tag></tag>
-   <elementGuidId>8c441ecf-5918-4c73-9b35-ecb78aeec818</elementGuidId>
+   <elementGuidId>d666abc7-e011-4824-a9e4-920efc463c69</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='email_id']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

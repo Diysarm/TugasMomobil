@@ -3,15 +3,14 @@
    <description></description>
    <name>Button_User</name>
    <tag></tag>
-   <elementGuidId>ec4a0236-d5f8-42bd-82f7-3f1dbf425885</elementGuidId>
+   <elementGuidId>b4eccd2f-8213-4abc-8b7c-ca544cd2e591</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;dLabel&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

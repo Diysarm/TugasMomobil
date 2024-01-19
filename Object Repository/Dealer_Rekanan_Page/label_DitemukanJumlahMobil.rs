@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Daftar</name>
+   <name>label_DitemukanJumlahMobil</name>
    <tag></tag>
-   <elementGuidId>3d7a0514-5a50-4fc9-8999-dd645c9119b7</elementGuidId>
+   <elementGuidId>122526ac-1f68-4b6c-a61a-ed88d85d83f5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='daftar_btn']</value>
+         <value>/html/body/div[4]/div[1]/div/div[3]/div[1]/div/div[2]/p</value>
       </entry>
       <entry>
          <key>BASIC</key>
