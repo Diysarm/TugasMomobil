@@ -23,7 +23,9 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Home_Page/Button_MasukDaftar'))
 
-WebUI.delay(3)
+WebUI.delay(4)
+
+WebUI.waitForElementPresent(findTestObject('Home_Page/Button_MasukDaftar'), 0)
 
 WebUI.verifyTextPresent('masuk ke akun anda', false)
 
