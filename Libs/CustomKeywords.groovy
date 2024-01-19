@@ -39,6 +39,17 @@ def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.execute"(
          , 	queryString)
 }
 
+def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.closeConnection"(	
+    	Connection conn	) {	
+    (new com.katalon.plugin.keyword.connection.DatabaseKeywords()).closeConnection(	
+        	conn)	
+}	
+
+
+def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection"() {	
+    (new com.katalon.plugin.keyword.connection.DatabaseKeywords()).getGlobalConnection()	
+}	
+
 
 def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery"(
     	Connection conn	
@@ -121,20 +132,18 @@ def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCel
 }
 
 
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue"(
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.exportToCSV"(
     	ResultSet rs	
-     , 	int rowIndex	
-     , 	int colIndex	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getSingleCellValue(
+     , 	String pathFile	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).exportToCSV(
         	rs
-         , 	rowIndex
-         , 	colIndex)
+         , 	pathFile)
 }
 
 
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getColumnCount"(
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.isEmptyResult"(
     	ResultSet rs	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getColumnCount(
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).isEmptyResult(
         	rs)
 }
 
@@ -150,12 +159,12 @@ def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListRowVa
 }
 
 
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.exportToCSV"(
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListCellValue"(
     	ResultSet rs	
-     , 	String pathFile	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).exportToCSV(
+     , 	String columnName	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListCellValue(
         	rs
-         , 	pathFile)
+         , 	columnName)
 }
 
 

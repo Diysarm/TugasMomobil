@@ -27,11 +27,13 @@ WebUI.click(findTestObject('Dealer_Rekanan_Page/button_DealerAbadaiMegahMotor'))
 
 WebUI.verifyElementText(findTestObject('Dealer_Rekanan_Page/label_AbadiMegahMotor'), 'ABADI MEGAH MOTOR')
 
-WebUI.scrollToElement(findTestObject('Dealer_Rekanan_Page/checkbox_Toyota'), 0)
-
 WebUI.click(findTestObject('Dealer_Rekanan_Page/checkbox_Toyota'))
 
-mobil = CustomKeywords.'packageKeyword.SplitText.stringToInteger'(WebUI.getText(findTestObject('Dealer_Rekanan_Page/label_HeaderMobil')))
+WebUI.delay(4)
+
+jumlah = WebUI.getText(findTestObject('Dealer_Rekanan_Page/label_DitemukanJumlahMobil'))
+
+mobil = CustomKeywords.'packageKeyword.SplitText.stringToInteger'(jumlah)
 
 CustomKeywords.'packageKeyword.SplitText.splitTextMobil'(mobil, findTestObject('Dealer_Rekanan_Page/label_HeaderMobil', 
         [(GlobalVariable.i) : GlobalVariable.i]))
